@@ -8,9 +8,13 @@ let C = [];
 let B = [];
 let A = [];
 
+let currentGrade = "";
 
-if (scores > 50 && < 60) {
-	grade = "F";
+function letterGrades(grades) {
+	for (let i = 0; i < grades.length; i++) {
+		// console.log(grades);
+		let currentGrade = grades[i];
+		if (grade > 50 && < 60);
+		F.push(currentGrade);
+	}
 }
-
-console.log(grade);
